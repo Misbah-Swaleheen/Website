@@ -1,0 +1,72 @@
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+.head{
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+}
+.project{
+    margin: 50px 70px;
+}
+.card-img-top{
+    
+    height: 200px;
+}
+/* .sec{
+   padding-right: 250px;
+   margin: 10px;
+    
+} */
+/* .box:hover{
+    box-sizing: border-box;
+    border: 4px double #4B515D;;
+    outline: 1px solid #4B515D;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5) ;
+} */
+.card{
+    border: 8px double rgba(0,0,0,0);
+    outline: 2px solid #4B515D;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0);
+    margin: 30px 10px;
+
+    
+}
+.card:hover{
+    border: 8px double rgba(0,0,0,0);
+    outline: 2px solid rgba(0,0,0,0);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.card-body a{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px){
+    .project{
+        margin: 50px 200px;
+    }
+    /* .sec{
+        padding-right: 120px;
+         
+     } */
+}
+@media only screen and (max-width: 576px){
+    .project{
+        margin: 50px 70px;
+    }
+    /* .sec{
+        padding-right: 150px;
+         
+     } */
+}
+@media only screen and (max-width: 384px){
+    .project{
+        margin: 50px 8px;
+    }
+    /* .sec{
+        padding-right: 150px;
+         
+     } */
+}

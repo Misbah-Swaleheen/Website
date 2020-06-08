@@ -1,0 +1,89 @@
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+.head{
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgba(0,0,0,0.70);
+    color: white;
+}
+.body{
+    margin:80px 150px;
+}
+.box{
+    margin: 80px;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5); 
+    padding: 10px 15px;   
+}
+.box a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.fone, .mob, .envelope, .loc{
+    color: black;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+.contact label, input, textarea{
+    margin-left: 25px;
+}
+.username{
+    width: 245px;
+}
+.comments{
+    vertical-align: top !important;
+}
+.btn1{
+    padding: 10px 15px;
+    margin-left :290px ;
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+}
+@media only screen and (max-width: 768px){
+    .body{
+        margin: 50px 80px;
+    }
+    .box{
+        margin: 40px;
+    }.contact label, input, textarea{
+        margin-left: 10px;
+    }
+    .btn{
+        margin-left :200px ;
+    }
+
+}
+@media only screen and  (max-width: 576px){
+    .body{
+        margin: 50px 30px;
+    }
+    .box{
+        margin: 20px;
+    }
+    .contact label, input, textarea{
+        margin-left: 10px;
+    }
+    .username{
+        width: 200px;
+    }
+    .btn1{
+        margin-left :200px ;
+    }
+    .textarea{
+        columns: 20 !important;
+    }
+}
+
+@media only screen and  (max-width: 384px){
+    .username{
+        width: 235px;
+    }
+    .btn1{
+        margin-left: 160px;
+    }
+}

@@ -1,0 +1,126 @@
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+.service{
+    margin-top: 50px;
+}
+.services{
+    margin: 10px 0;
+}
+.services img{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+    box-shadow: 0px 16px 40px 0px rgba(0, 0, 0, 0.16);
+    padding: 10px;
+    
+    
+}
+.services img:hover{
+   
+   border: 2px solid #4B515D;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5) ;
+}
+
+.service-items{
+    margin: 0px 50px;
+    
+}
+.ser-head{
+    margin: 30px 0px; 
+    font-weight: bolder;
+    
+}
+.services a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid black;
+    padding: 15px 0px;
+}
+
+.box:hover {
+    background-color: gray;
+    color: white;
+}
+.owl-carousel{
+    background-color: #ddd;
+    display: block;
+}
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width:12px;
+    height: 12px;
+   
+    background-color: #fff;
+}
+.projects{
+    background-image: linear-gradient(to top left, #616161, #424242,#757575);
+    padding: 20px 20px 20px 20px;
+    margin: 50px 0;
+}
+.pro-head{
+    color: white;
+    margin: 20px 50px;
+}
+.pro-body{
+    
+    margin: 20px 50px;
+}
+
+.pro-img img{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10%;
+    margin-bottom: 15px;
+   
+   
+}
+.pro-img:hover .image{
+    opacity: 0.3;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+ 
+  
+ .pro-img:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 24px;
+   
+  }

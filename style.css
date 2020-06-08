@@ -1,0 +1,132 @@
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+.icon li{
+    display: inline-block;
+    border-radius: 20px;
+
+   
+    
+}
+.icon a{
+    padding: 8px 10px;
+    
+    font-size: 13px;
+    border-radius: 50%;
+    
+    
+}
+
+.fa-facebook{
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+.fb{
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    color: white;
+}
+.fb:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #3b5998;
+}
+
+.wapp{
+      background-color:#25d366;
+    border: 1px solid #25d366;
+    color: white;
+}
+.wapp:hover{
+    background-color:white;
+    border: 1px solid white;
+    color: #25d366;
+}
+.yt{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+.yt:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: red;
+}
+.ins{
+        color:white;
+        background-image: linear-gradient(to top right, #F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4);
+          
+}
+.ins:hover{
+    background-color: white ;
+    background: -webkit-linear-gradient(to top right, #F58529,#FEDA77,#DD2A7B,#8134AF,#515BD4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    color: transparent;
+}
+.in{
+    background-color: #0e76a8;
+    border: 1px solid #0e76a8;
+    color: white;
+}
+.in:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #0e76a8;
+}
+.ph{
+    background-color: #00acee;
+    border: 1px solid #00acee;
+    color: white;
+}
+.ph:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: #00acee;
+}
+.log{
+    margin-right: 150px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    align-content: center !important;
+    
+}
+.fa-user-circle-o, .fa-location-arrow{
+    font-size: 20px;
+    padding: 5px 5px;
+    color: white;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: 90px;
+    margin-left: 100px;
+}
+.nav-item{
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+}
+
+.nav-item:hover, .nav-item.active{
+    /* background-color: #1976d2; */
+    background-color: #1e88e5 !important;
+    border: 1px solid #1e88e5;
+   
+    
+}
+.nav-link:hover{
+    /* color: #37474f; */
+    /* color: #2e3951 !important; */
+    /* color: red !important; */
+    color: white !important;
+}
+ .navbar-nav{
+    margin-right: 100px;
+}
+
+.active a{
+    color: white !important;
+}
